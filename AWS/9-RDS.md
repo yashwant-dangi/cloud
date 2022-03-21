@@ -18,3 +18,10 @@
 ## Encryption
 
 - if master is not encrypted, then read replica can not be encrypted
+
+## Aurora
+
+- Aurora can have 15 read replicas, while MySQL has 5
+- has high availability, 6 copies across 3 AZ
+- one aurora takes writes (known as master)
+- Aurora DB Cluster (shared storage volume), there is one writer endpoint and there is one writer endpoint
