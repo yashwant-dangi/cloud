@@ -25,3 +25,13 @@
 - has high availability, 6 copies across 3 AZ
 - one aurora takes writes (known as master)
 - Aurora DB Cluster (shared storage volume), there is one writer endpoint and there is one writer endpoint
+
+## ElasticCache
+
+- for in-memory database like redis and memcache
+
+| Redis                                  | Memcached                                     |
+| -------------------------------------- | --------------------------------------------- |
+| multi AZ with auto fail over           | multinode for partitioning of data (sharding) |
+| Read Replicas to scale reads           | No high availability                          |
+| Data persistence using AOF persistence | Non Persistent                                |
