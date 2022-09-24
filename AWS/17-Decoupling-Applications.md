@@ -22,3 +22,7 @@
 
 - Topic Publish (using the SDK)
 - Direct Publish (for mobile apps SDK)
+
+## kinesis
+
+- collect, process and analyze streaming data in real-time
