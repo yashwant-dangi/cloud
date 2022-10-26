@@ -8,3 +8,33 @@
 
 - Secure storate for configuration and secrets
 - Optional Seamless Encryption with KMS
+
+## 298 - AWS Secrets Manager
+
+- Newer service, meant for storing secret
+- Capability to force rotation of secrets every X days
+
+## 300 - AWS Certificate Manager (ACM)
+
+- Easily provision, manage and deploy TLS certificate
+- Integrations with
+  - Elastic Load Balancer
+  - CloudFront Distributions
+  - APIs on API Gateway
+
+## 301 - Web Application Firewall (WAF)
+
+- Protects web application from common web exploits (Layer 7)
+- Layer 7 is HTTP (vs Layer 4 is TCP/UDP)
+- Deploy on
+  - Application Load Balancer
+  - API gateway
+  - Cloudfront
+  - AppSync GraphQL API
+  - Cognito User Pool
+- Define Web ACL Rules using IP Set, HTTP Header, size constraints or rate-based rules
+- To Achieve fixed IP with the WAF, we can use Global Accelerator and WAF on the ALB
+
+## 302 - Shield - DDoS Attack
+
+- Provides protection from attacks such as SYN/UDP floods, Reflection attacks and other layer 3/layer 4 attacks
