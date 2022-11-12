@@ -22,3 +22,11 @@
 ### Backups for disaster recovery
 
 - Continuous backups using point-in-time recovery
+
+## 220 - API Gateway Overview
+
+- Client <-> API Gateway <-> Lambda <-> DynamoDB
+- Support for Websocket Protocol
+- Handle API versioning
+- Handle Security (Authentication and Authorization)
+- Option to create API keys, handle request throttling
