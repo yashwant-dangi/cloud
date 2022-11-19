@@ -26,3 +26,12 @@
 ## kinesis
 
 - collect, process and analyze streaming data in real-time
+
+## 197 - Data Order for Kinesis vs SQS FIFO
+
+- For Kinesis
+- send using a "partition key"
+- The same key will always go to the same shard
+- For SQS FIFO
+- You want to scale the number of customers, but you want messages to be "grouped" when they are related to each other
+- Then you use a Group ID (similar to Partition Key in Kinesis)
