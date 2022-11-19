@@ -35,3 +35,14 @@
 - For SQS FIFO
 - You want to scale the number of customers, but you want messages to be "grouped" when they are related to each other
 - Then you use a Group ID (similar to Partition Key in Kinesis)
+
+## SQS vs SNS vs Kinesis
+
+| SQS                                 | SNS                          | Kinesis                             |
+| ----------------------------------- | ---------------------------- | ----------------------------------- |
+| Consumer Pull Data                  | Push Dat to many subscribers | Standard: Pull Data - 2MB per shard |
+|                                     | Up to 12500000 subscribers   | Enhanced Fan Out: - Push Data -     |
+|                                     |                              | 2MB per shard per customer          |
+| Data is deleted after consumed      | Data is not persisted        | Possibility to replay data          |
+| can have as many workers            | Pub/Sub                      | Meant for real time big data        |
+| Order guarantees only on FIFO Queue |                              | Ordering at the shard level         |
