@@ -12,3 +12,11 @@
 - aws:RequestedRegion - restrict the region the API calls are made to
 - aws:ResourceTags - restrict based on tags
 - aws:MultiFactorAuthPresent - to force MFA
+
+## 283 - IAM Roles vs Resource Based Policy
+
+- When a assume a role(user, application or service), you give up your original permission and take the permissions assigned to the role.
+- When using a resource based policy, the Principal doesn't have to give up his permissions
+- Amazon EventBridge
+  - Resource Based Policy - Lambda, SNS, SQS, Cloudwatch Logs, API Gateway
+  - IAM Role - Kinesis Stream, System Manager Run Command, ECS task
