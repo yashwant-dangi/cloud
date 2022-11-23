@@ -20,3 +20,12 @@
 - Amazon EventBridge
   - Resource Based Policy - Lambda, SNS, SQS, Cloudwatch Logs, API Gateway
   - IAM Role - Kinesis Stream, System Manager Run Command, ECS task
+
+## 285 - Cognito
+
+- Give users an identity to interact with our web or mobile application
+- Cognito User Pools (CUP)
+  - Sign in functionality for all users
+  - Integrate with API gateway and Application Load Balancer
+- Cognito Identity Pools (Federated Identity)
+  - Provide AWS Credentials to users so they can access AWS Resources directly
