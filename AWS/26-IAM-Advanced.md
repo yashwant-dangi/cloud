@@ -29,3 +29,10 @@
   - Integrate with API gateway and Application Load Balancer
 - Cognito Identity Pools (Federated Identity)
   - Provide AWS Credentials to users so they can access AWS Resources directly
+
+## 286 - AWS IAM Identity Center
+
+- One Login for all your
+  - AWS accounts in AWS Organizations
+  - Business cloud applications
+  - SAML 2.0 enabled applications
