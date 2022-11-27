@@ -36,3 +36,17 @@
   - AWS accounts in AWS Organizations
   - Business cloud applications
   - SAML 2.0 enabled applications
+
+## 287 - AWS Directory Services
+
+- Create Your own AD in AWS
+- Establish "trush" connections with your on-premise AD
+
+## 288 - AWS Control Tower
+
+- Easy way to set up and govern a secure and compliant multi-account AWS environment based on best practices
+- Benefits
+  - Automate the set up of your env in few clicks
+  - Automate ongoing policy management using guardrails
+  - defect policy violations and remediate them
+  - Moniter compliance through an interactive dashboard
