@@ -38,3 +38,11 @@
 ## 302 - Shield - DDoS Attack
 
 - Provides protection from attacks such as SYN/UDP floods, Reflection attacks and other layer 3/layer 4 attacks
+
+## 303 - Firewall Manager
+
+- Manages all security rules at one place
+  - WAF rules, AWS sheild Advanced
+  - Security Group for EC2, ALB and ENI resources on VPC
+  - AWS Network Firewall
+  - Route 53 Resolver
