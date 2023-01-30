@@ -46,3 +46,23 @@
   - Security Group for EC2, ALB and ENI resources on VPC
   - AWS Network Firewall
   - Route 53 Resolver
+
+## 309 - Amazon GuardDuty
+
+- intelligent thret discovery to protect your aws account
+- Uses machine learning algo, anomaly detection, 3rd party data
+- input data include
+  - cloudtrail event logs
+  - VPC flow logs
+  - DNS logs
+  - kubernetes audit logs
+
+## Amazon Inspector
+
+- Automated Security Assessments
+- For EC2 instances, Container Images and Lambda functions
+
+## Amazon Macie
+
+- Macie is a fully managed data security and data privacy service that used machine learning and pattern matching
+- helps identify and alert you to sensitive data such as PII
