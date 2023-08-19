@@ -23,3 +23,15 @@
 -- Managed extract, transform and load (ETL) service
 -- useful to prepare and transform data for analytics
 -- Fully serverless service
+
+## AWS Lake Formation
+
+- central place to have all your data for analytics purpose
+- makes it easy to setup a datalake in days
+- discover, cleanse, transform and ingest data into your datalake
+
+## Kinesis Data Analytics
+
+- Kinesis Data Analytics for SQL Applications can read from Data Streams and Data Firehose
+- Kinesis Data Analytics for Apache Flink
+  - Run any Apache Flink Application on a managed cluster on AWS
